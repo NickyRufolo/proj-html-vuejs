@@ -16,26 +16,31 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit <br> <br>
                     Lorem, Lorem ipsum elitet assumenda numquam hic ducimus quibusdam eligendi voluptates perspiciatis
                     placeat perferendis, labore officiis laboriosam quos. Lorem ipsum dolor sit amet </h6>
-                    <br>
-                    <button>OUR MISSION</button>
+                <br>
+                <button>OUR MISSION</button>
             </div>
 
 
         </div>
         <div class="div-red">
-            <h6>Lorem, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, esse. Corporis
-                necessitatibus enim dignissimos consequuntur eveniet assumenda numquam hic ducimus quibusdam eligendi
-                voluptates perspiciatis placeat perferendis, labore officiis laboriosam quos. Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet consectetur adipisicing elit</h6>
-            <h6>Lorem, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, esse. Corporis
-                necessitatibus enim dignissimos consequuntur eveniet assumenda numquam hic ducimus quibusdam eligendi
-                voluptates perspiciatis placeat perferendis, labore officiis laboriosam quos. Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet consectetur adipisicing elit</h6>
-            <h6>Lorem, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, esse. Corporis
-                necessitatibus enim dignissimos consequuntur eveniet assumenda numquam hic ducimus quibusdam eligendi
-                voluptates perspiciatis placeat perferendis, labore officiis laboriosam quos. Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet consectetur adipisicing elit</h6>
-
+            <div class="FirstParagraph">
+                <span><font-awesome-icon icon="fa-regular fa-heart" />
+                    <h1>2032</h1>
+                </span>
+                <h4>Volunteers worldwide</h4>
+            </div>
+            <div class="FirstParagraph">
+                <span><font-awesome-icon icon="fa-solid fa-globe" />
+                    <h1>132</h1>
+                </span>
+                <h4>Active projects</h4>
+            </div>
+            <div class="FirstParagraph">
+                <span><font-awesome-icon icon="fa-solid fa-dollar-sign" />
+                    <h1>3.8M</h1>
+                </span>
+                <h4>Donated</h4>
+            </div>
         </div>
     </main>
 </template>
@@ -53,21 +58,48 @@ export default {
 <style scoped lang="scss">
 .div-white {
     background-color: white;
-    width: 65%;
+    padding: 100px;
+    width: 92%
+    // dovrei usare o il calc o il flex grow
 }
 
 .div-red {
-    background-color: rgb(255, 0, 0);
-    width: 35%;
+    background-image: url("../assets/home-content-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 120px;
+    text-align: center;
+    color: white;
 }
 
-.div-white>div {
-    padding: 100px;
-}
+// .div-white>div {
+//     padding: 100px;
+// }
 
 main {
     display: flex;
-    margin-top: 300px;
+    margin-top: 297px;
+}
+
+.FirstParagraph h1 {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.FirstParagraph .fa-heart,
+.fa-globe,
+.fa-dollar-sign {
+    font-size: 40px;
+}
+
+.FirstParagraph:nth-child(2),
+:nth-child(3) {
+    margin-top: 50px;
+}
+
+.FirstParagraph:first-child {
+    margin-top: -25px;
 }
 
 hr {

@@ -72,3 +72,11 @@ box-sizing: border-box;
 text-decoration: none;}
 
 </style>
+<!-- <font-awesome-icon icon="fa-regular fa-heart" />
+<font-awesome-icon icon="fa-solid fa-globe" />
+<font-awesome-icon icon="fa-solid fa-dollar-sign" />
+<font-awesome-icon icon="fa-brands fa-facebook" />
+<font-awesome-icon icon="fa-brands fa-facebook-f" />
+<font-awesome-icon icon="fa-brands fa-instagram" />
+<font-awesome-icon icon="fa-brands fa-twitter" />
+<font-awesome-icon icon="fa-brands fa-youtube" /> -->
