@@ -62,7 +62,6 @@ export default {
   color: #2c3e50;
   height: 2000px;
   width: 100vw;
-  background-color: rgb(223, 216, 216);
 }
 
 * {

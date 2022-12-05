@@ -61,9 +61,12 @@ padding-right: 15px;
 }
 .homepage-slider{
 background-image: url("../assets/home-page-slider.jpg");
-height: 100%;
 background-repeat: no-repeat;
 background-size: contain;
+background-attachment: fixed;
+width: 100%;
+background-size: cover;
+
 }
 header{
 width: 100%;

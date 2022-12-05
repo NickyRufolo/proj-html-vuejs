@@ -5,7 +5,7 @@
                 <h2>EVERY MOMENT COUNTS</h2> <br>
                 <hr> <br>
 
-                <h6>Doloribus, esse. Corporis numquam hic ducimus quibusdam eligendi voluptates perspiciatis placeat
+                <p>Doloribus, esse. Corporis numquam hic ducimus quibusdam eligendi voluptates perspiciatis placeat
                     perferendis, labore officiis laboriosam quos. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
                     consectetur adipisicing elite <br> <br>
                     Lorem, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, esse. Corporis
@@ -15,7 +15,7 @@
                     amet
                     Lorem ipsum dolor sit amet consectetur adipisicing elit <br> <br>
                     Lorem, Lorem ipsum elitet assumenda numquam hic ducimus quibusdam eligendi voluptates perspiciatis
-                    placeat perferendis, labore officiis laboriosam quos. Lorem ipsum dolor sit amet </h6>
+                    placeat perferendis, labore officiis laboriosam quos. Lorem ipsum dolor sit amet </p>
                 <br>
                 <button>OUR MISSION</button>
             </div>
@@ -46,6 +46,8 @@
 </template>
 
 <script>
+
+
 export default {
     name: 'SecondHeader',
     props: {
@@ -58,15 +60,19 @@ export default {
 <style scoped lang="scss">
 .div-white {
     background-color: white;
-    padding: 100px;
-    width: 92%
+    padding: 170px;
     // dovrei usare o il calc o il flex grow
 }
-
+.div-white p  {
+font-size: 1rem;
+}
+.div-white > div {
+margin-top: -27px;
+font-size: 1.5rem;
+}
 .div-red {
     background-image: url("../assets/home-content-bg-1.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
     padding: 120px;
     text-align: center;
     color: white;
@@ -99,7 +105,6 @@ main {
 }
 
 .FirstParagraph:first-child {
-    margin-top: -25px;
 }
 
 hr {
