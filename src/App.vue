@@ -4,6 +4,7 @@
     <HeaderComp :propsNav="arrayNavbar"/>
     <MainComp/>
     <FooterComp/>
+    <FooterJs :propsFooter="arrayFooter"/>
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import HeaderComp from './components/HeaderComp.vue'
 import MainComp from './components/MainComp.vue'
 import FooterComp from './components/FooterComp.vue'
+import FooterJs from './components/FooterJs.vue'
 
 
 export default {
@@ -18,7 +20,8 @@ export default {
   components: {
     HeaderComp,
     MainComp,
-    FooterComp
+    FooterComp,
+    FooterJs
   },
   data(){
   return {
@@ -42,12 +45,13 @@ export default {
         {
           'label': 'journal',
           "link": "/journal"
-        },
-        {
-          'label': 'donate',
-          "link": "/donate"
-        },
+        }
         
+      ],
+      arrayFooter: [
+        {
+          contacts: ["fa-brands fa-instagram", "fa-brands fa-twitter", "fa-brands fa-facebook", "fa-brands fa-youtube"]
+        }
       ]
     }
   }

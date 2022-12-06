@@ -115,7 +115,7 @@ hr {
 
 button {
     display: inline-block;
-    background-color: #f5cc00;
+    background-color:#f5cc00;
     border-radius: 0px;
     border: 2px double #ffffff;
     color: #eeeeee;

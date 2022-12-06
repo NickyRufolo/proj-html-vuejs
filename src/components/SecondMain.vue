@@ -20,7 +20,6 @@
             <div class="card-4">
                 <img src="../assets/avada-charity-vaccines-featured-400x300.jpg" alt="">
             </div>
-
         </div>
         <div class="red-long">
             <h3>VIEW ALL OUR CAUSES</h3>
@@ -42,7 +41,7 @@ export default {
 main {
     width: 100%;
     // background-color: rgb(162, 220, 220);
-    height: 500px;
+    // height: 500px;
 }
 
 .recent-causes {
@@ -82,7 +81,7 @@ main {
 
 .div-cards {
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 400px;
     align-items: center;
     padding-bottom: 50px;
@@ -100,12 +99,12 @@ main {
 .recent-causes>hr {
     margin-top: 10px;
     width: 50%;
-    border-top: 2px solid #f5cc00;
+    border-top: 2px solid #fcd66c
 }
 .red-long {
     width: 100%;
-    height: 100px;
-    background-color: red;
+    height: 80px;
+    background-color: #ed6864;
     text-align: center;
     display: flex;
     align-items: center;

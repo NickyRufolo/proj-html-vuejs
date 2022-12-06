@@ -8,8 +8,9 @@
 
   <!-- lista nav DX -->
     <div class="list" v-for="(elem, index) in propsNav" :key="index">
-        <a :href="elem.link">{{elem.label.toUpperCase()}}</a>
+        <a :href="elem.link">{{elem.label.toUpperCase()}}</a> 
     </div>
+    <button class="btn-2">DONATE</button>
   </div>
 <div class="div-text-center">
   <h1>MAKE A DIFFERENCE</h1> 
@@ -45,7 +46,7 @@ export default {
 .div-flex {
 display: flex;
 align-items: center;
-
+padding-top: 10px;
 }
 .header-nav > img{
 width: 250px;
@@ -73,7 +74,8 @@ width: 100%;
 }
 .div-text-center {
 width: 375px;
-margin-top:300px;
+margin-top:150px;
+margin-bottom:150px;
 text-align: center;
 color: white;
 padding-bottom: 100px;
@@ -81,7 +83,7 @@ padding-bottom: 100px;
 button { 
         display: inline-block;
         background-color: transparent;
-        border-radius: 10px;
+        // border-radius: 10px;
         border: 2px double #cccccc;
         color: #eeeeee;
         text-align: center;
@@ -103,9 +105,27 @@ button {
         opacity: 1;
         right: 0;
       }
+      .btn-2 { 
+        display: inline-block;
+        background-color: transparent;
+        // border-radius: 10px;
+        border: 2px double #cccccc;
+        background-color:#fcd66c;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        padding: 5px;
+        width: 100px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 10px;
+      }
+      .btn-2:hover {
+        background-color: #f7c2f9;
+      }
       .btn2 {
-        border: 2px double#e4de78f0;
-        color: #e4de78f0;
+        border: 2px double#fcd66c;
+        color:#fcd66c;
       }
 
 //       @mixin flex($justify) {
