@@ -89,7 +89,7 @@ border-top: 2px solid #f5cc00;
 #grande-4 {
     display: flex;
     align-items: flex-end;
-    height: 300px;
+    // height: 300px;
     // background-color: azure;
     text-align: center;
     color:white;

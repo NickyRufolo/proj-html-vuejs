@@ -3,10 +3,10 @@
         <div class="Avada">
             <p> © Copyright - 2020 AVADA THEME BY THEME FUSION | ALL RIGHT RESERVED | POWERED BY WORDPRESS</p>
         </div>
-        <!-- 
-        <li class="Icons-Js" v-for="(elem, index) in propsFooter" :key="index">
-            <font-awesome-icon :icon="(elem.contacts)"/>
-        </li> -->
+    
+        <li class="Icons-Js" v-for="(elem, index) in propsFooter[0].contacts" :key="index">
+            <font-awesome-icon :icon="elem"/>
+        </li> 
 
         <div class="fonts">
             <div>
